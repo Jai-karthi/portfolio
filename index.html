@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Jai Prashanth</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Jai Prashanth</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="https://img.freepik.com/premium-vector/jk-logo_773552-192.jpg?w=826" alt="jk logo" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Jai Prashanth</h1>
+        <p class="section__text__p2">Software Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/jai-prashanth-85a7962b6/'"
+          />
+          <img
+            src="./assets/leetcode.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://leetcode.com/jaikarthi/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Jaiprashanth003'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/robot.png"
+            alt="robot"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3></h3>
+              <p>Software Engineer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.E computer science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am Jai Prashanth, a software engineer who loves to learn new technologies. I began my journey with Python and later expanded my skills to include web development, mobile app development, and blockchain development.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Solidity</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>c++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>java</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools & Technologies</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Mongodb</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flask</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Next JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Anime Card</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Jaiprashanth003/animecard'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://animecard.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Travelling App Advertisement</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Jaiprashanth003/travel_app'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://travel-app-7u9w.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Google Clone</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Jaiprashanth003/google-clone.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://google-clone-nine-taupe.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project4.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Realastate WebPage</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Jaiprashanth003/realstate'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://realstate-beta.vercel.app/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:jaikarthi00007@gmail.com">jaikarthi00007@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/jai-prashanth-85a7962b6/">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://freepngimg.com/save/122269-logo-pic-instagram-free-transparent-image-hd/768x768"
+            alt="Instagram"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.instagram.com/jai_karthi__/">Instagram</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="data:image/png;base64,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"
+            alt="Twitter"
+            class="icon contact-icon"
+          />
+          <p><a href="https://twitter.com/Jai_karthi_">Twitter</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>© 2024 All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
